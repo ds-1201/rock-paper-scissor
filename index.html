@@ -41,6 +41,68 @@
           </div>
         </div>
       </div>
+
+      <main class="play-screen">
+        <!-- user choose screen -->
+        <div class="user-choose">
+          <div class="top">
+            <div id="rock" class="outer-circle">
+              <div class="inner-circle">
+                <img src="./images/rock.png" width="60%" />
+              </div>
+            </div>
+            <div id="scissor" class="outer-circle">
+              <div class="inner-circle">
+                <img src="./images/scissor.png" width="38%" />
+              </div>
+            </div>
+          </div>
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+          <div id="paper" class="outer-circle">
+            <div class="inner-circle">
+              <img src="./images/paper.png" width="55%" />
+            </div>
+          </div>
+        </div>
+
+        <!-- winner screen -->
+        <div class="winner-screen">
+          <h1 class="winner-title">DRAW</h1>
+          <button class="play-again">PLAY AGAIN</button>
+        </div>
+      </main>
+
+      <!-- Rules -->
+      <div class="rules-box">
+        <button class="close-button">X</button>
+        <h2>Game Rules</h2>
+        <ul>
+          <li>
+            Rock beats scissors, scissors beat paper, and paper beats rock.
+          </li>
+          <li>
+            Agree ahead of time whether you’ll count off “rock, paper, scissors,
+            shoot” or just “rock, paper, scissors.”
+          </li>
+          <li>
+            Use rock, paper, scissors to settle minor decisions or simply play
+            to pass the time.
+          </li>
+          <li>
+            If both players lay down the same hand, each player lays down
+            another hand.
+          </li>
+        </ul>
+      </div>
+
+      <footer>
+        <button class="rules btn">RULES</button>
+        <button class="next btn">NEXT</button>
+      </footer>
+
+      <script src="./script.js"></script>
     </div>
   </body>
 </html>
