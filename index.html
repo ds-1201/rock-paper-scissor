@@ -46,31 +46,76 @@
         <!-- user choose screen -->
         <div class="user-choose">
           <div class="top">
-            <div id="rock" class="outer-circle">
+            <div id="rock" class="outer-circle rock">
               <div class="inner-circle">
-                <img src="./images/rock.png" width="60%" />
+                <img src="./images/rock.png" />
               </div>
             </div>
-            <div id="scissor" class="outer-circle">
+            <div id="scissor" class="outer-circle scissor">
               <div class="inner-circle">
-                <img src="./images/scissor.png" width="38%" />
+                <img src="./images/scissor.png" />
               </div>
             </div>
           </div>
           <div class="line1"></div>
           <div class="line2"></div>
           <div class="line3"></div>
-          <div id="paper" class="outer-circle">
+          <div id="paper" class="outer-circle paper">
             <div class="inner-circle">
-              <img src="./images/paper.png" width="55%" />
+              <img src="./images/paper.png" />
             </div>
           </div>
         </div>
 
         <!-- result screen -->
         <div class="result-screen">
-          <h1 class="winner-title">DRAW</h1>
-          <button class="play-again">PLAY AGAIN</button>
+          <div class="side">
+            <p class="user-pick">You Picked</p>
+            <div
+              id="user-scissor"
+              class="outer-circle scissor green-background"
+            >
+              <div class="inner-circle">
+                <img src="./images/scissor.png" />
+              </div>
+            </div>
+            <div id="user-rock" class="outer-circle rock">
+              <div class="inner-circle">
+                <img src="./images/rock.png" />
+              </div>
+            </div>
+            <div id="user-paper" class="outer-circle paper">
+              <div class="inner-circle">
+                <img src="./images/paper.png" />
+              </div>
+            </div>
+          </div>
+          <div class="result">
+            <h1 class="result-title" id="tie-up">TIE UP</h1>
+            <h1 class="result-title" id="you-won">YOU WON</h1>
+            <h1 class="result-title" id="you-lost">YOU LOST</h1>
+            <h2 class="against-pc">Against PC</h2>
+            <button class="btn play-again">PLAY AGAIN</button>
+            <button class="btn replay">REPLAY</button>
+          </div>
+          <div class="side">
+            <p class="pc-pick">PC Picked</p>
+            <div id="pc-scissor" class="outer-circle scissor">
+              <div class="inner-circle">
+                <img src="./images/scissor.png" />
+              </div>
+            </div>
+            <div id="pc-rock" class="outer-circle rock">
+              <div class="inner-circle">
+                <img src="./images/rock.png" />
+              </div>
+            </div>
+            <div id="pc-paper" class="outer-circle paper">
+              <div class="inner-circle">
+                <img src="./images/paper.png" />
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>
