@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --dark-green: #004429;
+  --gray: #656565;
+  --yellow: #ffd600;
+  --black: #252525;
+  --green: #8cc461;
+  --white: #fff;
+  --green-1: #1da82b;
+  --green-2: #1da82b90;
+  --green-3: #2e9a2563;
+}
+
+body {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.game-screen {
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.score-board {
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--white);
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.score-box {
+  width: 125px;
+  background-color: var(--white);
+  color: var(--gray);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.7px;
+  padding: 0.5rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.score-comp,
+.score-player {
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--black);
+}
