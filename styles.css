@@ -33,7 +33,6 @@ body {
   width: 55%;
   margin: 0 auto;
   margin-top: 3rem;
-  /* display: none; */
 }
 
 /* scoreboard */
@@ -142,7 +141,6 @@ body {
   justify-content: center;
   gap: 56px;
   position: relative;
-  display: none;
 }
 
 .top {
@@ -155,7 +153,7 @@ body {
 .line2,
 .line3 {
   background-color: var(--black);
-  opacity: 0.9;
+  opacity: 0.75;
   position: absolute;
   z-index: -1;
 }
@@ -185,7 +183,6 @@ body {
 
 /* Play screen -> result screen */
 .result-screen {
-  /* display: none; */
   width: 80%;
   margin-top: 3rem;
   transform: translateX(-7%);
@@ -247,12 +244,6 @@ body {
   font-weight: 500;
 }
 
-#you-lost,
-#tie-up,
-.replay {
-  display: none;
-}
-
 .green-background {
   border: none;
   box-shadow: 0 0 0 40px var(--in-green), 0 0 0 60px var(--mid-green),
@@ -266,7 +257,6 @@ body {
   margin: 0 auto;
   margin-top: 2rem;
   text-align: center;
-  display: none;
 }
 
 .win-img {
@@ -326,7 +316,6 @@ body {
   position: absolute;
   bottom: 12%;
   right: 2.5%;
-  display: none;
 }
 .rules-box h2 {
   color: var(--white);
@@ -400,5 +389,8 @@ footer .btn:active {
 
 .next {
   margin-left: 2rem;
+}
+
+.hide {
   display: none;
 }

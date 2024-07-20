@@ -68,25 +68,24 @@
         </div>
 
         <!-- result screen -->
-        <div class="result-screen">
+        <div class="result-screen hide">
           <div class="side">
             <p class="user-pick">You Picked</p>
-            <div
-              id="user-scissor"
-              class="outer-circle scissor green-background"
-            >
-              <div class="inner-circle">
-                <img src="./images/scissor.png" />
+            <div class="user-choice">
+              <div id="user-scissor" class="outer-circle scissor">
+                <div class="inner-circle">
+                  <img src="./images/scissor.png" />
+                </div>
               </div>
-            </div>
-            <div id="user-rock" class="outer-circle rock">
-              <div class="inner-circle">
-                <img src="./images/rock.png" />
+              <div id="user-rock" class="outer-circle rock">
+                <div class="inner-circle">
+                  <img src="./images/rock.png" />
+                </div>
               </div>
-            </div>
-            <div id="user-paper" class="outer-circle paper">
-              <div class="inner-circle">
-                <img src="./images/paper.png" />
+              <div id="user-paper" class="outer-circle paper">
+                <div class="inner-circle">
+                  <img src="./images/paper.png" />
+                </div>
               </div>
             </div>
           </div>
@@ -98,21 +97,25 @@
             <button class="btn play-again">PLAY AGAIN</button>
             <button class="btn replay">REPLAY</button>
           </div>
+
+          <!-- pc side -->
           <div class="side">
             <p class="pc-pick">PC Picked</p>
-            <div id="pc-scissor" class="outer-circle scissor">
-              <div class="inner-circle">
-                <img src="./images/scissor.png" />
+            <div class="pc-choice">
+              <div id="pc-scissor" class="outer-circle scissor">
+                <div class="inner-circle">
+                  <img src="./images/scissor.png" />
+                </div>
               </div>
-            </div>
-            <div id="pc-rock" class="outer-circle rock">
-              <div class="inner-circle">
-                <img src="./images/rock.png" />
+              <div id="pc-rock" class="outer-circle rock">
+                <div class="inner-circle">
+                  <img src="./images/rock.png" />
+                </div>
               </div>
-            </div>
-            <div id="pc-paper" class="outer-circle paper">
-              <div class="inner-circle">
-                <img src="./images/paper.png" />
+              <div id="pc-paper" class="outer-circle paper">
+                <div class="inner-circle">
+                  <img src="./images/paper.png" />
+                </div>
               </div>
             </div>
           </div>
@@ -121,7 +124,7 @@
     </div>
 
     <!-- Win screen -->
-    <div class="win-screen">
+    <div class="win-screen hide">
       <div class="win-img">
         <img class="win-cup" src="./images/cup.png" />
         <img class="win-stars" src="./images/stars.png" alt="stars" />
@@ -132,7 +135,7 @@
     </div>
 
     <!-- Rules -->
-    <div class="rules-box">
+    <div class="rules-box hide">
       <button class="close-button">X</button>
       <h2>Game Rules</h2>
       <ul>
@@ -154,7 +157,7 @@
 
     <footer>
       <button class="rules btn">RULES</button>
-      <button class="next btn">NEXT</button>
+      <button class="next btn hide">NEXT</button>
     </footer>
 
     <script src="./script.js"></script>
